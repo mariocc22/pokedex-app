@@ -1,4 +1,4 @@
-# Counter in React Native using Redux ToolKit
+<!-- # Counter in React Native using Redux ToolKit
 
 ## Get Started
 
@@ -9,4 +9,4 @@ This is a counter with multiple buttons to increment, decrement, reset and incre
 ## Tech Stack
 
 - **Frontend:** React Native, CSS
-- **Tools:** Redux toolkit, Expo-Router
+- **Tools:** Redux toolkit, Expo-Router -->
