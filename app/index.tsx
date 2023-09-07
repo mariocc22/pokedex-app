@@ -3,16 +3,14 @@ import React from "react";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Counter from "./components/Counter";
-import ButtonRedux from "./components/ButtonRedux";
+import PokemonList from "./components/PokemonList";
 
 const Home = () => {
   return (
     <Provider store={store}>
-      <SafeAreaView style={{ paddingHorizontal: 10 }}>
-        <Counter />
-        <ButtonRedux />
-      </SafeAreaView>
+      <View>
+        <PokemonList />
+      </View>
     </Provider>
   );
 };
