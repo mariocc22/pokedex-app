@@ -194,6 +194,7 @@ const PokemonList = () => {
               style={styles.button}
               onPress={() => handleIncrementByAmount(100)}
             >
+              {/* comment */}
               <Text style={styles.buttonText}>⏭</Text>
             </TouchableOpacity>
           </View>
